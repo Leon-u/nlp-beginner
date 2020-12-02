@@ -2,7 +2,7 @@ from config.lr_config import LrConfig
 from sklearn import model_selection
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
-from sklearn.externals import joblib
+import joblib
 import jieba
 import numpy as np
 
